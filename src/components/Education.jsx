@@ -28,9 +28,9 @@ export default function Education(){
         return(
             <div className="section">
                 <h2>Education</h2>
-                <p>School: {userSchool.school}</p>
-                <p>Major: {userSchool.major} </p>
-                <p>Date: {userSchool.date}</p>
+                <p><b>School:</b> {userSchool.school}</p>
+                <p><b>Major: </b>{userSchool.major} </p>
+                <p><b>Date: </b>{userSchool.date}</p>
                 <button type="button" onClick={handleToggleEdit}>Edit</button>
             </div>
         )

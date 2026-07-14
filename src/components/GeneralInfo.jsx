@@ -29,9 +29,9 @@ export default function GeneralInfo(){
         return(
             <div className="section">
                 <h2>General information</h2>
-                <p>Name: {userInfo.name}</p>
-                <p>Email: {userInfo.email} </p>
-                <p>Phone: {userInfo.phone}</p>
+                <p><b>Name:</b> {userInfo.name}</p>
+                <p><b>Email: </b>{userInfo.email} </p>
+                <p><b>Phone:</b> {userInfo.phone}</p>
                 <button type="button" onClick={handleToggleEdit}>Edit</button>
             </div>
         )
